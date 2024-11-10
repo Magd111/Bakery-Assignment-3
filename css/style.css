@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:x-large;
+    margin: 0;
+}
+
+/* ثوايت */
+.clear{
+    clear: both;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+.bg{
+    background-color:#F8F8F8;
+}
+.cbg img{
+    background-color: #8E7754;
+    margin-right: 15px;
+}
+
+::-webkit-scrollbar{   /*scrollbar*/
+    width: 15px;
+    background-color: black;
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb :hover{
+    background-color:black;
+}
+/* ...................... */
+
+/*start nav barrrrrrrrrr */
+
+.container{
+    width: 80%;
+    margin: 0 auto; 
+    font-size: large;
+    /* لتوسيط المجموعة في النص */
+}
+.nav-left{
+    float: left;
+}
+.nav-right{
+    float: right;
+}
+.nav-right li{
+    display: inline-block;
+}
+.nav-right ul{
+    list-style: none;
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    padding-left: 15px;
+    transition: 0.7s ease;
+}
+.container .nav-left img{
+    width: 150px;
+    color: white;
+}
+.container .nav-right a:hover{
+    color: #C88529;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* end navbarrrrrrrrrrr */
+
+/* start homeeeeeeeeeeee */
+
+.home{
+    min-height: 100vh;
+    text-align: center;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home-text{
+padding-top: 150px ;
+color: white;
+
+}
+.home-text h1{
+    font-size: 2em;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 100vh;
+}
+.btn{
+    margin: 20px 0 0 10px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    transition: 0.7s ease;
+    font-size: large;
+}
+.more{
+    background-color: #8E7754;
+    border: none;
+}
+.contact{
+    border: 3px solid white;
+    background-color: transparent; }/*للشفافية*/
+
+.home-text .btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* end homeeeeeeeee */
+
+/* start displayyyyyyyyyyyyyyyy */
+
+
+.about{
+    margin: 0% auto;
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+.select{
+    display: inline-block;
+    vertical-align:middle;
+    width: 45%;
+    padding: 2%;
+}
+ .icons img{
+    width: 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+ .icons{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/* start floattttttttttttttt */
+
+.float{
+    margin: 0% auto;
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+
+.content{
+    float: left;
+    width: 30%;
+    padding-left: 3%;
+}
+
+.selector{
+    width: 100%;
+    min-height: 75vh;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.map{
+    float: left;
+    width: 45%;
+    padding-left: 2.5%;
+}
+.cf{
+    background-color: #403D38;
+    width: 100%;
+    min-height: 75vh;
+}
+.footer{
+    width: auto;
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 50px 50px;
+}
+.ft h3{
+    color: white;
+    font-size:large;
+}
+.ft p{
+    font-size: 0.7em;
+    color: #939292;
+}
+.ft{
+    float: left;
+    width: 25%;
+
+}
+.icons-footer img{
+    width:40px ;
+}
+
+
+/* ................................ */
+
+.end{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #353330;
+    text-align: center;
+}
+
+.logo-end img{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+}
+
+.icons-end img{
+    width: 40px;
+    background-color: #484540;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 15px;
+}
+.end p{
+    color: #6A6A69;
+}
+
+.icons-end .facebook img:hover{
+    background-color: #3B5998;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.icons-end .google img:hover{
+    background-color: #DD4B39;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.icons-end .linkedin img:hover{
+    background-color: #007BB5;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.icons-end .twitter img:hover{
+    background-color: #00ACED;
+    transform: scale(1.1);
+    cursor: pointer;
+}
